@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // 【世界統計】
     if (worldStatsButton) {
         worldStatsButton.addEventListener('click', function() {
-            window.location.href = 'Wourd.html'; 
+            window.location.href = 'wourd.html'; 
         });
     }
 
