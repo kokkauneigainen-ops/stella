@@ -22,24 +22,4 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 
-    // 【内政を行う】
-    if (personalGovButton) {
-        personalGovButton.addEventListener('click', function() {
-            window.location.href = '個人内政ページ.html';
-        });
-    }
-
-    // 【貿易ターミナル】
-    if (tradeTerminalButton) {
-        tradeTerminalButton.addEventListener('click', function() {
-            window.location.href = '貿易ターミナルページ.html';
-        });
-    }
-
-    // 【運営情報】
-    if (opInfoButton) {
-        opInfoButton.addEventListener('click', function() {
-            window.location.href = '運営情報ページ.html';
-        });
-    }
 });
