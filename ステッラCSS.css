@@ -1,0 +1,158 @@
+body {
+
+  background-image: url('背景画像.jpg');
+  
+  background-repeat: no-repeat;
+  
+  background-position: center center; 
+  
+  background-size: cover;
+
+  background-attachment: fixed;
+  
+}
+
+
+
+.ホームアイコン{
+  height: 120px; 
+  width: auto;
+}
+
+.HG{
+  /* これが最も重要：子要素を横並びにする */
+  display: flex; 
+  
+  /* 子要素を垂直方向（上下）で中央に揃える */
+  align-items: center; 
+  
+  /* 画像とH1の間に20ピクセルの隙間を空ける（任意） */
+  gap: 10px;
+
+  width: 80%; 
+  
+  /* 必須：左右のマージンを自動調整する */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+h1 {
+    color: #ffffff; /* 見出しの色を指定 */
+    text-align: center;
+    font-family: "BIZ UDPMincho", "Hiragino Mincho ProN", "Yu Mincho", serif;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.移動先URL群{
+  /*ボタンを縦配列するやつだよ*/
+  display: flex;             /* Flexboxを有効にする */
+  flex-direction: column;    /* メイン軸を縦方向（列）に設定する */
+  display: block; 
+  /* 上下のマージンを設定 */
+  margin-bottom: 120px;
+}
+
+.世界統計{
+  background-color: #474747;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  /* 必須：ボタンをブロック要素にするか、幅を設定する */
+  display: block; 
+  
+  /* 必須：ボタンの幅を親要素に対して相対的に設定 */
+  width: 80%; /* 例: 画面幅の80%を使う */
+  
+  /* 必須：左右の余白を自動で均等に設定し、中央に配置 */
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.個人運営{
+  background-color: #474747;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  /* 必須：ボタンをブロック要素にするか、幅を設定する */
+  display: block; 
+  
+  /* 必須：ボタンの幅を親要素に対して相対的に設定 */
+  width: 80%; /* 例: 画面幅の80%を使う */
+  
+  /* 必須：左右の余白を自動で均等に設定し、中央に配置 */
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.貿易ターミナル{
+  background-color: #474747;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  /* 必須：ボタンをブロック要素にするか、幅を設定する */
+  display: block; 
+  
+  /* 必須：ボタンの幅を親要素に対して相対的に設定 */
+  width: 80%; /* 例: 画面幅の80%を使う */
+  
+  /* 必須：左右の余白を自動で均等に設定し、中央に配置 */
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.運営情報{
+  background-color: #474747;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  /* 必須：ボタンをブロック要素にするか、幅を設定する */
+  display: block; 
+  
+  /* 必須：ボタンの幅を親要素に対して相対的に設定 */
+  width: 80%; /* 例: 画面幅の80%を使う */
+  
+  /* 必須：左右の余白を自動で均等に設定し、中央に配置 */
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.感謝{
+  color: #ffffff;
+  font-size: 25%;
+}
+
+.ホームページURL{
+  font-size: 30%;
+  background-color:white
+}
+
+.紹介文{
+  align-items: center; 
+  /* 必須：左右のマージンを自動調整する */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* ローディングの見た目（最初は非表示にしておく） */
+ #loading {
+ display: none; /* 初期状態は消しておく */
+ font-weight: bold;
+ color: rgb(255, 255, 255);
+ font-size: 1.2em;
+ }
+.表{
+  color: rgb(255, 255, 255);
+  margin-left: auto;
+  margin-right: auto;
+}
